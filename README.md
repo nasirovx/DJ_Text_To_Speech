@@ -1,78 +1,78 @@
-# Django проект для текст в речь
+# Django Project for Text-to-Speech
 
-Этот Django проект позволяет конвертировать текст в аудиофайлы и сохранять их.
- 
-## Возможности
+This Django project allows converting text to audio files and saving them.
 
-- Преобразование текста в речь на нескольких языках.
-- Сохранение сгенерированных аудиофайлов с уникальными именами.
-- Основные административные функции через Django Admin.
+## Features
 
-## Установка
+- Conversion of text to speech in multiple languages.
+- Saving generated audio files with unique names.
+- Basic administrative functions through Django Admin.
 
-1. **Клонировать репозиторий:**
+## Installation
+
+1. **Clone the repository:**
 
     ```bash
     git clone git@github.com:nasirovx/DJ_Text_To_Speech.git
     cd Text-to-Speech-API
     ```
 
-2. **Создать виртуальное окружение:**
+2. **Create a virtual environment:**
 
     ```bash
     python -m venv venv
     ```
 
-3. **Активировать виртуальное окружение:**
+3. **Activate the virtual environment:**
 
-    - На Windows:
+    - On Windows:
 
         ```bash
         venv\Scripts\activate
         ```
 
-    - На macOS/Linux:
+    - On macOS/Linux:
 
         ```bash
         source venv/bin/activate
         ```
 
-4. **Установить зависимости:**
+4. **Install dependencies:**
 
     ```bash
     pip install -r requirements.txt
     ```
 
-5. **Применить миграции:**
+5. **Apply migrations:**
 
     ```bash
     python manage.py migrate
     ```
 
-6. **Запустить сервер разработки:**
+6. **Start the development server:**
 
     ```bash
     python manage.py runserver
     ```
 
-7. **Открыть браузер и перейти по адресу [http://localhost:8000/admin](http://localhost:8000/admin) для доступа к Django Admin.**
+7. **Open the browser and go to [http://localhost:8000/admin](http://localhost:8000/admin) to access Django Admin.**
 
-8. **Войти, используя административные учетные данные, и начать использовать функционал текст в речь.**
+8. **Log in using administrative credentials and start using the text-to-speech functionality.**
 
-## Использование
+## Usage
 
-1. Войти в Django Admin и перейти в раздел "Text to Speech".
+1. Log in to Django Admin and navigate to the "Text to Speech" section.
 
-2. Создать новую запись, предоставив текст и уникальное имя файла. По желанию можно выбрать язык речи.
+2. Create a new entry by providing the text and a unique file name. Optionally, you can select the language for the speech.
 
-3. Сохранить запись, и соответствующий аудиофайл будет сгенерирован и сохранен в каталоге `voice/`.
+3. Save the entry, and the corresponding audio file will be generated and saved in the `voice/` directory.
 
-4. Чтобы прослушать или скачать сгенерированное аудио, перейти на страницу деталей записи в Django Admin и кликнуть по предоставленной ссылке.
+4. To listen to or download the generated audio, go to the detail page of the entry in Django Admin and click on the provided link.
 
-## Вклад
+## Contribution
 
-Приветствуются вклады! Если у вас есть идеи для улучшений или новых функций, не стесняйтесь создавать issue или отправлять pull request.
+Contributions are welcome! If you have ideas for improvements or new features, feel free to create an issue or submit a pull request.
 
-## Лицензия
+## License
 
-Этот проект лицензирован по лицензии MIT - подробности см. в файле [LICENSE](LICENSE).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
