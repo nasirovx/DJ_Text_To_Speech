@@ -5,7 +5,7 @@ This Django project allows converting text to audio files and saving them.
 ## Features
 
 - Conversion of text to speech in multiple languages.
-- Saving generated audio files with unique names.
+- Saving generated audio files with unique names. 
 - Basic administrative functions through Django Admin.
 
 ## Installation
