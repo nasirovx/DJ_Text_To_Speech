@@ -1,6 +1,6 @@
 # Django Project for Text-to-Speech 
   
-This Django project allows converting text to audio files and saving them.  
+This Django project allows converting text to audio files and saving them.   
 
 ## Features
 
