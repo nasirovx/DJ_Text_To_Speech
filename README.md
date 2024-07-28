@@ -14,7 +14,7 @@ This Django project allows converting text to audio files and saving them.
 
     ```bash
     git clone git@github.com:nasirovx/DJ_Text_To_Speech.git
-    cd Text-to-Speech-API
+    cd DJ_Text_To_Speech
     ```
 
 2. **Create a virtual environment:**
