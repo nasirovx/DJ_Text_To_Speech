@@ -10,7 +10,7 @@ This Django project allows converting text to audio files and saving them.
  
 ## Installation 
  
-1. **Clone the repository:**
+1. **Clone the repository:** 
 
     ```bash
     git clone git@github.com:nasirovx/DJ_Text_To_Speech.git
