@@ -25,7 +25,7 @@ This Django project allows converting text to audio files and saving them.
 
 3. **Activate the virtual environment:**
 
-    - On Windows:
+    - On Windows: 
  
         ```bash
         venv\Scripts\activate
