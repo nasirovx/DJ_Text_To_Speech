@@ -29,7 +29,7 @@ This Django project allows converting text to audio files and saving them.
  
         ```bash
         venv\Scripts\activate
-        ```
+        ``` 
 
     - On macOS/Linux:
 
